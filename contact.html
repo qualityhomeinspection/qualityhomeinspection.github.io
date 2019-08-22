@@ -5,7 +5,8 @@
    <!-- Required meta tags -->
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <title>Real_state || contact</title>
+   <title>Contact Us</title>
+   <meta name="description" content="The contact info for Quality Home Inspections.">
    <link rel="icon" href="img/favicon.png">
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -50,6 +51,7 @@
                         <li class="nav-item">
                            <a class="nav-link" href="services.html">Services</a>
                         </li>
+                        <!--
                         <li class="nav-item dropdown">
                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -71,6 +73,7 @@
                               <a class="dropdown-item" href="elements.html">Elements</a>
                            </div>
                         </li>
+                        -->
                         <li class="nav-item">
                            <a class="nav-link" href="contact.html">Contact us</a>
                         </li>
@@ -106,27 +109,20 @@
         <div id="map" style="height: 480px;"></div>
         <script>
           function initMap() {
-            var uluru = {lat: -25.363, lng: 131.044};
-            var grayStyles = [
-              {
-                featureType: "all",
-                stylers: [
-                  { saturation: -90 },
-                  { lightness: 50 }
-                ]
-              },
-              {elementType: 'labels.text.fill', stylers: [{color: '#ccdee9'}]}
-            ];
+            var rowlandHeights = {lat: 33.970959, lng: -117.896210};
             var map = new google.maps.Map(document.getElementById('map'), {
-              center: {lat: -31.197, lng: 150.744},
-              zoom: 9,
-              styles: grayStyles,
+              center: {lat: 33.970959, lng: -117.896210},
+              zoom: 11,
               scrollwheel:  false
+            });
+            var marker = new google.maps.Marker({
+               position: rowlandHeights,
+               map: map
             });
           }
           
         </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&callback=initMap"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABh2lDPSAqKYfXn3JqIBQSFTMH4_WZGDI&callback=initMap"></script>
         
       </div>
 
@@ -135,6 +131,7 @@
         <div class="col-12">
           <h2 class="contact-title">Get in Touch</h2>
         </div>
+        <!--
         <div class="col-lg-8">
           <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
             <div class="row">
@@ -164,26 +161,27 @@
             </div>
           </form>
         </div>
+         -->
         <div class="col-lg-4">
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-home"></i></span>
             <div class="media-body">
-              <h3><a href="">Buttonwood, California.</a></h3>
-              <p>Rosemead, CA 91770</p>
+              <h3><a href="">Rowland Heights</a></h3>
+              <p>California</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
             <div class="media-body">
-              <h3><a href="tel:454545654">00 (440) 9865 562</a></h3>
-              <p>Mon to Fri 9am to 6pm</p>
+              <h3><a href="tel:6264174216">(626) 417-4216</a></h3>
+              <p>Available 24/7</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-email"></i></span>
             <div class="media-body">
-              <h3><a href="mailto:support@colorlib.com">support@colorlib.com</a></h3>
-              <p>Send us your query anytime!</p>
+              <h3><a href="mailto:tien830@gmail.com">tien830@gmail.com</a></h3>
+              <p>Email us at anytime!</p>
             </div>
           </div>
         </div>
@@ -192,85 +190,86 @@
   </section>
   <!-- ================ contact section end ================= -->
 
- <!--::footer_part start::-->
- <footer class="footer_part">
-    <div class="container">
-       <div class="row">
-          <div class="col-lg-12">
-             <div class="footer_logo">
-                <a href="index.html" class="footer_logo_iner"> <img src="img/footer_logo.png" alt="#"> </a>
-             </div>
-          </div>
-
-          <div class="col-sm-6 col-lg-3">
-             <div class="single_footer_part">
-                <h4>About Us</h4>
-                <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open</p>
-                <div class="footer_icon social_icon">
-                   <ul class="list-unstyled">
-                      <li><a href="#" class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="#" class="single_social_icon"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="#" class="single_social_icon"><i class="fas fa-globe"></i></a></li>
-                      <li><a href="#" class="single_social_icon"><i class="fab fa-behance"></i></a></li>
-                   </ul>
-                </div>
-             </div>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-             <div class="single_footer_part">
-                <h4>Contact Info</h4>
-                <p>Address : Your address goes
-                   here, your demo address.</p>
-                <p>Phone : +8880 44338899</p>
-                <p>Email : info@colorlib.com</p>
-             </div>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-             <div class="single_footer_part">
-                <h4>Important Link</h4>
-                <ul class="list-unstyled">
-                   <li><a href=""> WHMCS-bridge</a></li>
-                   <li><a href="">Search Domain</a></li>
-                   <li><a href="">My Account</a></li>
-                   <li><a href="">Shopping Cart</a></li>
-                   <li><a href="">Our Shop</a></li>
-                </ul>
-             </div>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-             <div class="single_footer_part">
-                <h4>Newsletter</h4>
-                <p>Heaven fruitful doesn't over lesser in days. Appear creeping seasons deve behold bearing days open
-                </p>
-                <div id="mc_embed_signup">
-                  <form target="_blank"
-                     action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                     method="get" class="subscribe_form relative mail_part" required>
-                     <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
-                        class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email Address '"
-                        required="" type="email">
-                     <button type="submit" name="submit" id="newsletter-submit"
-                        class="email_icon newsletter-submit button-contactForm"><i
-                           class="far fa-paper-plane"></i></button>
-                     <div class="mt-10 info"></div>
-                  </form>
+   <!--::footer_part start::-->
+   <footer class="footer_part">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="footer_logo">
+                     <a href="index.html" class="footer_logo_iner"> <img src="img/footer_logo.png" alt="#"> </a>
                </div>
-             </div>
-          </div>
-       </div>
-       <hr>
-       <div class="row">
-          <div class="col-lg-12">
-             <div class="copyright_text text-center">
-                <P><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></P>
-             </div>
-          </div>
-       </div>
-    </div>
- </footer>
- <!--::footer_part end::-->
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+               <div class="single_footer_part">
+                  <h4>About Us</h4>
+                  <p>Started in 1997 and specializing in house inspections, we are a family business handed down from father to son. </p>
+                  <div class="footer_icon social_icon">
+                     <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/qualityhomeins/" class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="single_social_icon"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.yelp.com/biz/quality-home-inspection-services-rowland-heights" class="single_social_icon"><i class="fab fa-yelp"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+               <div class="single_footer_part">
+                  <h4>Contact Info</h4>
+                  <p>Located: Rowland Heights, CA</p>
+                  <p>Phone: (626) 417-4216</p>
+                  <p>Email: tien830@gmail.com</p>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+               <div class="single_footer_part">
+                  <h4>Navigation</h4>
+                  <ul class="list-unstyled">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="services.html">Services</a></li>
+                     <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+               <div class="single_footer_part">
+                  <h4>Our Mission</h4>
+                  <p>To do our best at fulfilling the needs of our clients and giving them comfort that the home they buy is exactly what they wanted.
+                  </p>
+
+                  <!--
+                  <div id="mc_embed_signup">
+                     <form target="_blank"
+                        action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                        method="get" class="subscribe_form relative mail_part" required>
+                        <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
+                           class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email Address '"
+                           required="" type="email">
+                        <button type="submit" name="submit" id="newsletter-submit"
+                           class="email_icon newsletter-submit button-contactForm"><i
+                              class="far fa-paper-plane"></i></button>
+                        <div class="mt-10 info"></div>
+                     </form>
+                  </div>
+                  -->
+
+               </div>
+            </div>
+         </div>
+         <hr>
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="copyright_text text-center">
+                  <P>
+                     Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made by <a href="https://www.oscaryih.com" target="_blank">Oscar Yih</a>
+                  </P>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!--::footer_part end::-->
  
  <!-- jquery -->
  <script src="js/jquery-1.12.1.min.js"></script>
