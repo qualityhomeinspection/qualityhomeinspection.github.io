@@ -1104,6 +1104,66 @@ ul {
   }
 }
 
+/**************** tool_part css start ****************/
+.tool_part {
+  padding-bottom: 150px;
+}
+
+.tool_part .section_tittle h2 {
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+  padding-left: 206px;
+  text-transform: capitalize;
+  line-height: 24px;
+}
+
+.tool_part .tool_text {
+  margin: auto;
+  padding: 50px;
+}
+
+.tool_part .section-top-border h3 {
+  font-size: 36px;
+  margin-bottom: 34px;
+  font-weight: 700;
+  line-height: 51px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  /* line 4, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_service.scss */
+  .tool_part .section_tittle h2 {
+    padding-left: 130px;
+    margin-bottom: 0;
+  }
+}
+
+/* line 21, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_service.scss */
+.tool_part .section_tittle h2:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 12px;
+  width: 180px;
+  height: 1px;
+  background-color: #ff3334;
+}
+
+@media (max-width: 991px) {
+  /* line 21, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_service.scss */
+  .tool_part .section_tittle h2:after {
+    width: 110px;
+  }
+}
+
+/* line 39, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_service.scss */
+.tool_part .section_tittle h2 span {
+  color: #ff3334;
+}
+
 /**************** service_part css start ****************/
 /* line 4, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_service.scss */
 .service_part .section_tittle h2 {
