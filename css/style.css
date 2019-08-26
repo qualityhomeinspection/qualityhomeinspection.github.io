@@ -1133,6 +1133,10 @@ ul {
   text-align: center;
 }
 
+.tool_part .section-top-border h3 span {
+  color: #ff3334
+}
+
 @media (max-width: 991px) {
   /* line 4, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_service.scss */
   .tool_part .section_tittle h2 {
