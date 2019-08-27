@@ -1104,6 +1104,22 @@ ul {
   }
 }
 
+/**************** yelp_part css start ****************/
+.yelp_part {
+  margin-bottom: 150px;
+}
+.yelp_part .yelp_column {
+  text-align: center;
+}
+.yelp_part a {
+  font-size: 15px;
+  margin-top: 15px;
+}
+.yelp_part i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
 /**************** tool_part css start ****************/
 .tool_part {
   padding-bottom: 150px;
@@ -2566,7 +2582,7 @@ ul {
 
 /* line 127, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_footer.scss */
 .footer_part .footer_icon li a {
-  font-size: 14px;
+  font-size: 25px;
   color: #fff;
   margin-left: 30px;
   -webkit-transition: 0.5s;
