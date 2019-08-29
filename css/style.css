@@ -2497,11 +2497,11 @@ ul {
   margin-bottom: 10px;
 }
 
-.footer_part .single_footer_part a {
+.footer_part .single_footer_part .contact_info a {
   color: #888;
 }
 
-.footer_part .single_footer_part a:hover {
+.footer_part .single_footer_part .contact_info a:hover {
   color: #ff3334 !important;
 }
 
