@@ -14,7 +14,8 @@ description: "Serving quality home inspections to the residents of Southern Cali
                   <div class="banner_text_iner">
                      <h5>Quality</h5>
                      <h2>Home <br>
-                        Inspections</h2>
+                        Inspections <br>
+                        Services</h2>
                      <p>Ranging from residential to commercial, we proudly serve the residents of Southern California. </p>
                   </div>
                </div>
