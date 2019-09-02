@@ -33,5 +33,7 @@ description: "Serving quality home inspections to the residents of Southern Cali
    
    {% include tool_part.html %}
 
+   {% include testimonial.html %}
+
    {% include yelp_part.html %}
 </div>
