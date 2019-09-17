@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Quality Home Inspection - Home"
-description: "Serving quality home inspections to the residents of Southern California."
+description: "We serve quality home inspections ranging from commercial to residential properties."
 ---
 
 <div>
