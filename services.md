@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Services
-description: The types of services rendered for Quality Property Inspections.
+description: The types of services rendered for Quality Home Inspections.
 ---
 <div>
     <!--::breadcrumb part start::-->
