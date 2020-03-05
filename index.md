@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Quality Home Inspection - Home"
+title: "Quality Property Inspection - Home"
 description: "We serve quality home inspections ranging from commercial to residential properties."
 ---
 
@@ -13,7 +13,7 @@ description: "We serve quality home inspections ranging from commercial to resid
                <div class="banner_text aling-items-center">
                   <div class="banner_text_iner">
                      <h5>Quality</h5>
-                     <h2>Home <br>
+                     <h2>Property <br>
                         Inspections <br>
                         Services</h2>
                      <p>Ranging from residential to commercial, we proudly serve the residents of Southern California. </p>
