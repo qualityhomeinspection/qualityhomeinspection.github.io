@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-description: The about page for Quality Home Inspections.
+description: The about page for Quality Property Inspections.
 ---
 <div>
    <!--::breadcrumb part start::-->

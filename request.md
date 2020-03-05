@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Request Form"
-description: "Request form page to request a home inspection."
+description: "Request form page to request a Property inspection."
 ---
 
 <!--::breadcrumb part start::-->
