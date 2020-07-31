@@ -98,7 +98,7 @@ description: The contact info for Quality Property Inspections.
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-email"></i></span>
             <div class="media-body">
-              <h3><a href="mailto:tien830@gmail.com">tien830@gmail.com</a></h3>
+              <h3><a href="mailto:qualitypropertyinspection@gmail.com">qualitypropertyinspection@gmail.com</a></h3>
               <p>Email us at anytime!</p>
             </div>
           </div>
