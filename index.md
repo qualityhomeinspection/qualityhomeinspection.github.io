@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Quality Property Inspection Services - Home"
-description: "We serve quality home inspections ranging from commercial to residential properties."
+description: "We serve quality home inspections."
 ---
 
 <div>
