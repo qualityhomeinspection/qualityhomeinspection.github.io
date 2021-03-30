@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Quality Property Inspection Services - Home"
-description: "We serve quality home inspections."
+title: "Home - Quality Property Inspection Services"
+description: "We serve quality home inspections in the Los Angeles, Riverside, San Bernardino and Orange County."
 ---
 
 <div>

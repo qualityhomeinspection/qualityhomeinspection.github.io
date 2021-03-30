@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Contact Us
-description: The contact info for Quality Property Inspections.
+title: "Contact Us - Quality Property Inspection Services"
+description: "Contact Quality Property Inspections for more information about our services."
 ---
 <div>
    <!--::breadcrumb part start::-->
